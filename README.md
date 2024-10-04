@@ -1,3 +1,5 @@
+# by : mohamed fares
+
 # OCR with Adaptive Thresholding
 
 This project is a Streamlit-based web app that allows users to upload images and extract text using Optical Character Recognition (OCR) via `EasyOCR`. It provides functionality for preprocessing the uploaded images by applying adaptive thresholding and includes user controls for fine-tuning the thresholding process.
@@ -47,11 +49,7 @@ This project is a Streamlit-based web app that allows users to upload images and
 - **C Value**: A constant subtracted from the mean or weighted mean in the adaptive thresholding process. It fine-tunes the thresholding result. Can be any integer between -100 and 100.
 - **Transpose Image**: Optionally rotates the image for better orientation during text detection.
 
-## Example
 
-Here is an example of the app’s interface and the text detection result:
-![Screenshot](1.png)
-![Screenshot](2.png)
 ## Dependencies
 
 - `Streamlit`
